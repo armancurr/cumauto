@@ -1,0 +1,17 @@
+{
+  "name": "cumauto",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "commander": "^14.0.0",
+    "simple-git": "^3.28.0"
+  }
+}
