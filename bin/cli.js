@@ -10,7 +10,7 @@ const program = new Command();
 program
   .name("cumauto")
   .description("AI-powered git commit message generator")
-  .version("1.3.1");
+  .version("1.0.0");
 
 program
   .command("config")

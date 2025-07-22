@@ -16,14 +16,14 @@ async function checkGitRepo() {
 async function getDiff() {
   const diff = await git.diff(["--staged"]);
   if (!diff) {
-    throw new Error(
-      "No staged changes found. Stage your changes using:\n" +
-        "┌───────────────────────────────────────────────┐\n" +
-        "│ git add                            OR         │\n" +
-        "│ git add .                          OR         │\n" +
-        "│ git add <file>                                │\n" +
-        "└───────────────────────────────────────────────┘",
-    );
+      throw new Error(
+          "No staged changes found. Stage your changes using:\n" +
+              "╭───────────────────────────────╮\n" +
+              "│ git add            OR         │\n" +
+              "│ git add .          OR         │\n" +
+              "│ git add <file                 │\n" +
+              "╰───────────────────────────────╯",
+      );
   }
   return diff;
 }
