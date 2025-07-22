@@ -1,0 +1,82 @@
+{
+  "name": "cumauto",
+  "version": "0.0.1",
+  "description": "AI-powered git commit message generator using Gemini API",
+  "author": "Arman",
+  "homepage": "https://cumauto.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/armancurr/cumauto"
+  },
+  "bugs": {
+    "url": "https://github.com/armancurr/cumauto/issues"
+  },
+  "main": "src/index.js",
+  "bin": {
+    "cumauto": "bin/cli.js"
+  },
+  "keywords": [
+    "cumauto",
+    "cumauto-cli",
+    "cumauto-commit-message",
+    "cumauto-commit-message-generator",
+    "cumauto-commit-message-tool",
+    "cumauto-commit-message-cli",
+    "commit-message-generator",
+    "commit-message-tool",
+    "commit-message-cli",
+    "commit-message-with-ai",
+    "commit-message-generator-with-ai",
+    "commit-message-tool-with-ai",
+    "commit-message-cli-with-ai",
+    "AI commit message generator",
+    "npm package",
+    "npm package for commit messages",
+    "ai generate commit messages",
+    "generate commit messages with AI",
+    "Gemini API",
+    "git commit messages",
+    "conventional commits",
+    "automated commit messages",
+    "CLI tools for developers",
+    "Node.js commit message generator",
+    "GitHub actions",
+    "open source commit message tool",
+    "Gemini Pro API integration",
+    "AI-powered development tools",
+    "automated software engineering",
+    "commit message best practices",
+    "AI in software development",
+    "git automation tools",
+    "developer productivity tools",
+    "AI-driven commit message generation",
+    "AI commit automation",
+    "AI git integration",
+    "AI-enhanced git workflow",
+    "smart commit messages",
+    "intelligent commit messages",
+    "AI commit message assistant"
+  ],
+  "scripts": {
+    "test": "jest",
+    "start": "node ./bin/cli.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "conf": "^13.0.1",
+    "simple-git": "^3.27.0"
+  },
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "bin/",
+    "src/"
+  ]
+}
